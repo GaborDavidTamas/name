@@ -1,105 +1,143 @@
-body {
-    background-color: #202124;
+body{
+    background-color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    color: #fff;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    color: white;   
 }
-header {
-    color: #fff;
+header{
+    background-color: rgb(12, 228, 224);
     padding: 20px 0;
-    text-align: center;
+    color: white;
 }
-#links {
-    background-color: rgb(94, 11, 97);
+a{
+    color: black;
+}
+#links{
+    background-color: rgb(12, 228, 224);
     padding: 15px;
     text-align: center;
 }
-#links a {
+#links a{
     color: white;
     font-weight: bold;
-    font-variant: small-caps;
-    font-size: 120%;
-    text-decoration: none;
+    font-weight: small-caps;
+    font-size: 120%;    
     margin: 20px;
+    text-decoration: none;
 }
-#links a:hover {
-    color: rgb(209, 97, 237);
-    background-color: #e4c1c1;
-    border: 2px solid #da4fd5;
-    padding: 10px;
-}
-h2 {
+h1{
     text-align: center;
     margin-top: 20px;
 }
-#contact {
-    padding: 20px;
+.szöveg{
     text-align: center;
-    margin-bottom: 30px;
+    font-size: small-caps;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: black;
+    
 }
-form input, form textarea {
-    width: calc(100% - 40px);
-    max-width: 600px;
+.obs{
+    text-align: center;
+    font-size: small-caps;
     padding: 10px;
-    margin: 10px auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #000;
-}
-form button {
-    padding: 10px 20px;
-    background: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-form button:hover {
-    background-color: #555;
-}
-
-.második, .videos {
+    margin: 20px;
+    background-color: white;
     border-radius: 20px;
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    margin: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
 }
-.második {
-    float: left;
-    width: calc(50% - 40px);
-}
-
-.videos {
-    float: right;
-    width: calc(50% - 40px);
-}
-footer {
-    clear: both;
-    padding: 20px 0;
+.videos{
     text-align: center;
-    background-color: #333;
-    color: #fff;
-}
-p {
-    text-align: left;
-}
-img {
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    width: 250px;
-    height: 250px;
-}
-.szöveg {
-    text-align: right;
-    float: right;
-    width: calc(20% - 40px);
+    font-size: small-caps;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
     border-radius: 20px;
-    background-color: #000;
-    padding: 20px;
-    margin: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 20px;
+}
+.gomb, .gomb2, .gomb3, .gomb4{
+    background-color: #2941dc;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.setup{
+    text-align: center;
+    font-size: small-caps;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black
+}
+table, th, td {
+    border: 5px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+}
+td{
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 20px 10px;
+}
+td:first-child{
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: #ffeb3b;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.szín td{
+     text-align: center;
+}
+.szín td:first-child{
+    background-color: rgb(100, 100, 210);
+    color: white;
+}
+.szín td:last-child{
+    background-color: rgb(100, 100, 210);
+    color: rgb(255, 255, 255);
+}
+.szín td:nth-child(2){
+    background-color: rgb(100, 100, 210);
+    color: black;
+}
+#links a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    padding: 10px;
 }
